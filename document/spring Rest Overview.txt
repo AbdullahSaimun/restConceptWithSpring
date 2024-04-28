@@ -1,0 +1,25 @@
+Spring REST - Overview
+-----------------------------------------
+- REST = Representational State Transfer
+- REST was first defined by Roy Fielding in his 2000 Doctoral Dissertation.
+- Client-Server Architecture
+- Stateless
+- Cacheable
+- Layered System
+- Code on demand (Optional)
+- Uniform Interface
+   - Identification of resources
+   - Manipulation of resources through these representation
+   - self-descriptive message
+   - Hypermedia as the Engine of Application State (HATEOS)
+- The Web's architectural principles
+- Unique Identification of Resource (URI)
+- Different resource representation.
+- Hypermedia/Linking of resource.
+- Stateless Communication
+- Standard method (GET, POST, PUT, DELETE, PATCH, HEAD) and
+  response (200 OK, 404 Not Found)
+----------------------------------------------------------
+Not suitable for all type application or architecture or protocol. like graphtQl
+---------------------------------------------------------
+
