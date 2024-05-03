@@ -21,4 +21,8 @@ public class FirstController {
 	public String uploadPost(@RequestBody String data) {
 		return "Post is " + data;
 	}
+	@PostMapping("/orders")
+	public String uploadPost(@RequestBody Order order) {
+		return "order is " + order;
+	}
 }
