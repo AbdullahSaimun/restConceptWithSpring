@@ -1,0 +1,16 @@
+Spring Rest - Resource Design
+
+-> the resource should be always be plural nouns and the API endpoints adn if one instance reasource shouldl be
+ retrieved, pass the id in the URL
+    -> GET /accounts
+    -> GET /accounts/1
+    -> DELETE /accounts/2
+
+-> In case of nested resources (resources under a resource), the resources should be accessible as follows.
+    -> GET /accounts/1/payments/45
+
+-> Use the HTTP methods (aka "verbs") to specify what to do with this resource. With
+    methods GET, POST, PUT, PATCH, DELETE you can provide CRUD functionality (Create, Read, Update, Delete)
+
+
+------------------------------------------------------------------

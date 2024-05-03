@@ -1,0 +1,7 @@
+GET -> retrieve data from server
+POST -> send data to server and create data. Send data through body
+PUT -> used to update existing data create if data doesn't exist. It also send data through body
+DELETE -> used to delete resource specify the urls
+PATCH -> used to apply partial modifications
+OPTIONS -> used to return http method. check web server functionality
+HEAD -> Similar to GET. Only returns Header of response not actual data
