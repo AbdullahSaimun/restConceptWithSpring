@@ -36,5 +36,10 @@ public class FirstController {
 	public String sayHelloAnotherPathVariable(@PathVariable String name) {
 		return STR."Another Hello from first controller and path variable is \{name}";
 	}
+	@GetMapping("/hello-parameter")
+	@ResponseStatus(HttpStatus.OK)
+	public String sayHelloAnotherParameter(@RequestParam String firstName, @RequestParam String lastName) {
+		return STR."firstName is \{firstName} and last name is \{lastName}";
+	}
 
 }
