@@ -30,4 +30,11 @@ public class FirstController {
 	public String uploadPostRecords(@RequestBody OrderRecord order) {
 		return "order is record" + order;
 	}
+
+	@GetMapping("/hello-pathVariable/{name}")
+	@ResponseStatus(HttpStatus.OK)
+	public String sayHelloAnotherPathVariable(@PathVariable String name) {
+		return STR."Another Hello from first controller and path variable is \{name}";
+	}
+
 }
