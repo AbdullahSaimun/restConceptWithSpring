@@ -49,7 +49,10 @@ public class CarBuilderTest {
 	}
 
 	public static void main(String[] args) {
-		CarBuilderTest cb = new Builder().make("fjkdf").model("dsdf").year(32).build();
+		CarBuilderTest cb = new Builder()
+				.make("bmw")
+				.model("cc")
+				.year(32).build();
 		System.out.println(cb.make);
 		System.out.println(cb.model);
 		System.out.println(cb.year);
