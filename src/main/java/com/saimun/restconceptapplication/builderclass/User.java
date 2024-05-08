@@ -1,4 +1,4 @@
-package com.saimun.restconceptapplication.dto;
+package com.saimun.restconceptapplication.builderclass;
 
 public class User {
 	private final String username;
