@@ -1,0 +1,18 @@
+Singleton Design Pattern
+
+The Singleton design pattern ensures that a class has only one instance, and provides a global access point to that instance. It's a creational pattern that controls object creation.
+
+Key Characteristics:
+
+Single Instance: Only one object of the class can exist.
+Global Access Point: A static method provides a way to retrieve the single instance.
+Private Constructor: Prevents direct instantiation from outside the class.
+Benefits:
+
+Enforces a single instance for classes representing global resources like configurations, loggers, or database connections.
+Provides a controlled way to access the single instance.
+Can improve performance by avoiding redundant object creation.
+Drawbacks:
+
+Tight coupling (reliance on static methods), making testing trickier.
+Can introduce inflexibility if multiple instances are needed later.
