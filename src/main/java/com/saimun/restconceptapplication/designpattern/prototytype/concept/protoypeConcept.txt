@@ -1,0 +1,9 @@
+Prototype Design Pattern
+
+The Prototype design pattern allows you to create new objects by cloning existing objects. This can be useful when creating complex objects or when you need multiple objects with similar properties but slight variations.
+
+Key Points:
+
+Clone Existing Objects: Instead of creating new objects from scratch, you create a copy (clone) of an existing object.
+Reduce Creation Cost: Cloning can be faster than creating a new object from scratch, especially for complex objects.
+Customize Clones: You can modify the cloned object after creation to suit your specific needs.
